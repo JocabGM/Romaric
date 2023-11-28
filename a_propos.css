@@ -1,0 +1,76 @@
+/* Reset des marges et des rembourrages par défaut */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style de fond pour le body avec une animation simple à l'ouverture */
+body {
+    background-color: #f0f0f0; /* Couleur de fond principale */
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Animation d'ouverture */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Style de l'entête */
+.entete {
+    background-color: #3498db; /* Couleur bleue principale */
+    color: #fff; /* Texte en blanc */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style du conteneur principal */
+.conteneur {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff; /* Fond blanc */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    padding: 20px;
+}
+
+/* Style des sections */
+section {
+    margin-bottom: 20px;
+}
+
+/* Style des sections avec une bordure en bas */
+section:not(:last-child) {
+    border-bottom: 1px solid #ddd; /* Bordure grise */
+    padding-bottom: 20px;
+}
+
+/* Style des titres de section */
+h2 {
+    color: #333; /* Couleur de texte noire */
+    margin: 10px 10px;
+}
+
+/* Style des éléments de liste */
+ul {
+    list-style: none;
+}
+
+/* Style des éléments de liste avec une marge en bas */
+li {
+    margin-bottom: 8px;
+}
+
+/* Style des liens */
+a {
+    color: #3498db; /* Couleur bleue principale */
+    text-decoration: none;
+}
+
+/* Style des liens au survol */
+a:hover {
+    text-decoration: underline;
+}

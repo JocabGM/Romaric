@@ -1,0 +1,120 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+footer {
+    background-color: #3498db; /* Bleu */
+    color: #fff;
+    padding: 20px 0;
+}
+
+.conteneur {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenu_footer {
+    width: 30%;
+}
+
+h2 {
+    color: #3498db;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    margin-bottom: 15px; /* Ajout de marge en bas pour l'esthétique */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px; /* Ajustement de la marge entre les éléments de la liste */
+}
+
+i {
+    margin-right: 8px; /* Ajustement de la marge à droite des icônes */
+}
+
+/* Style pour les liens du pied de page */
+a {
+    color: rgb(0, 153, 255);
+    text-decoration: none;
+    margin: 0 auto;
+   /* list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;*/
+    padding: 10px 20px;
+    border: 1px solid #3498db;
+    margin: 10px;
+    font-weight: 500;
+    transition: 1s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    background: #3498db;
+    color: black;
+    
+}
+
+/* Ajout d'un style pour la section "Filieres" */
+#filieres {
+    text-align: center;
+    padding: 40px 0;
+}
+
+#filieres h2 {
+    color:#3498db; /* Couleur du texte */
+    margin-bottom: 20px; /* Espace en bas du titre */
+}
+
+#filieres article {
+    width: 100%;
+    max-width: 460px; /* Largeur maximale pour une meilleure mise en page */
+    margin: 0 auto; /* Centrage des articles */
+    margin-bottom: 30px; /* Espace en bas de chaque article */
+}
+
+.overlay {
+    background: rgba(255, 255, 255, 0.95);
+    height: 100%;
+    width: 100%; /* Modification de la largeur à 100% */
+    padding: 20%;
+    border-radius: 10px; /* Ajout de la bordure arrondie */
+    box-sizing: border-box; /* Inclusion de la bordure dans la largeur et la hauteur */
+}
+
+article h4 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin-bottom: 15px; /* Espace en bas du titre */
+}
+nav{
+    text-decoration: none;
+    color: blue;
+    padding: 20px;
+}
+section .conteneurs{
+    display : flex ; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section .conteneurs h2 {
+    border: none;
+
+}
+#filieres h2{
+    display : flex ; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
